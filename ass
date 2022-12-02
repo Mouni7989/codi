@@ -1,0 +1,29 @@
+def vote(a):
+ifa>18:
+  print('eligible')
+   else
+     print('not eligible')
+     a=int(input())
+     vote(a)
+
+
+     way-2
+     def vote(a):
+      ifa>18:
+      return 'eligible'
+       else:
+       return 'not eligible'
+        a=int(input())
+        print(vote(a))
+
+        way-3
+        def vote(a):
+      ifa>18:
+      return 'eligible'
+       else:
+       return 'not eligible'
+        a=int(input())
+        if(vote(a)):
+        print('eligible')
+          else:
+          print('not eligible')
