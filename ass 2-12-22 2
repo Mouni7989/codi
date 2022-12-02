@@ -1,0 +1,29 @@
+def biggest(a):
+ifa>18:
+  print('eligible')
+   else
+     print('not eligible')
+     a=int(input())
+     biggest(a)
+
+
+     way-2
+     def biggest(a):
+      ifa>18:
+      return 'eligible'
+       else:
+       return 'not eligible'
+        a=int(input())
+        print(biggest(a))
+
+        way-3
+        def biggest(a):
+      ifa>18:
+      return 'eligible'
+       else:
+       return 'not eligible'
+        a=int(input())
+        if(biggest(a)):
+        print('eligible')
+          else:
+          print('not eligible')
