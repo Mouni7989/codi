@@ -1,0 +1,29 @@
+def leap year(a):
+ifa%4==0:
+  print('leap year')
+   else
+     print('not leap year')
+     a=int(input())
+     leap year(a)
+
+
+     way-2
+     def leap year(a):
+      ifa%4==0:
+      return 'leap year'
+       else:
+       return 'not leap year'
+        a=int(input())
+        print(leap year(a))
+
+        way-3
+        def leap year(a):
+      ifa%4==0:
+      return 'leap year'
+       else:
+       return 'not leap year'
+        a=int(input())
+        if(leap year(a)):
+        print('leap year')
+          else:
+          print('not leap year')
